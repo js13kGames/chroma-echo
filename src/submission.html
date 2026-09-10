@@ -107,7 +107,7 @@ function draw(){
   trail(history,.8);if(p)unicorn(p);
   particles.forEach(q=>{X.globalAlpha=Math.min(1,q.t*2);X.fillStyle=rr(q.c);X.fillRect(q.x,q.y,4,4)});X.globalAlpha=1;
   if(state===0)overlay("CHROMA ECHO","Your past mistakes become your rainbow.","MOVE: WASD / ARROWS • REWIND: R","PRESS ENTER TO BEGIN");
-  if(state===2)overlay("MEMORY UNLOCKED",level===levels.length-1?"YOU RESTORED THE LAST RAINBOW":"THE NEXT MEMORY IS WAITING","ENTER: CONTINUE");
+  if(state===2)overlay("MEMORY UNLOCKED",level===levels.length-1?"YOU RESTORED THE LAST RAINBOW":"THE NEXT MEMORY IS WAITING","","ENTER: CONTINUE");
   if(state===3)overlay("THE RAINBOW REMEMBERS","A js13kGames 2026 micro-adventure","FINAL SCORE "+score,"ENTER: PLAY AGAIN");
 }
 function overlay(a,b,c,d){
