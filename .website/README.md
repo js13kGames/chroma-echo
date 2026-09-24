@@ -1,4 +1,8 @@
 ---
+genres:
+  - puzzle
+  - platformer
+  - adventure
 directors_cut: https://x.com/victorhez4/status/2098339061739979217?s=20
 video: https://youtu.be/JEV3K8_o2xA
 post: https://x.com/victorhez4/status/2098339061739979217?s=20
